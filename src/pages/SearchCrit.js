@@ -1,12 +1,15 @@
 import React from "react";
+import "./style.css";
+
 
 
 const SearchCrit = props => {
     return (
         <form>
             <div className="form-group">
-                <label className="BookSearchLabel"><h3>Search For Book</h3></label>
+                <label className="BookSearch"><h3>Book Search</h3></label>
                 <br></br>
+                <h4>Book</h4>
                 <input className="col-12 form-control"
                     value={props.search}
                     type="text"
@@ -15,8 +18,9 @@ const SearchCrit = props => {
                     onChange={props.handleInputChange}
                 />
             </div>
-            <button type="submit" className="submitBtn btn btn-primary" onClick={props.handleFormSubmit}>
-                Submit
+            
+            <button type="submit" className="submitBtn btn btn-success" onClick={props.handleFormSubmit}>
+                Search
             </button>
         </form>
     )
@@ -24,4 +28,4 @@ const SearchCrit = props => {
 
 
 
-export default SearchCrit
+export default SearchCrit;

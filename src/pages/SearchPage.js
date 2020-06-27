@@ -67,7 +67,7 @@ class Searching extends Component {
         return (
             <Container fluid>
                 <Jumbotron>
-                    <h1 className="text-white">(React) Google Book Search</h1>
+                    <h1 className="text-white cat">(React) Google Book Search</h1>
                     <h3>Search for and Save Books of Interest</h3>
                 </Jumbotron>
                 <Container>

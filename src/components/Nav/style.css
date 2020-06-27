@@ -1,0 +1,16 @@
+.srchBtn {
+    background-color: red;
+    color: white;
+    box-shadow:10px 10px 5px grey;
+}
+
+.svdBtn {
+    background-color: blue;
+    color: white;
+    box-shadow:10px 10px 5px grey;
+}
+
+.google {
+    padding: 2px;
+    box-shadow:10px 10px 5px grey;
+}
