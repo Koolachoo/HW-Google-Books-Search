@@ -3,7 +3,7 @@ import React from "react";
 import {Row, Col} from "../components/Grid"
 
 const SavedResult = props => {
-    return (props.savedBooks.length === 0) ? (
+    return (props.bookData.length === 0) ? (
         <div className="card">
             <div className="card-body ">
                 <div className="article">
@@ -16,7 +16,7 @@ const SavedResult = props => {
             <div className="card-body ">
                 <div >
                     <h3>Books that You Saved</h3>
-                    {props.savedBooks.map(savedbook => {
+                    {props.bookData.map(savedbook => {
                         return (
                             <li className="saved-list list-group-item">
                                 <Row className="SearchResult" id={savedbook.title + "Card"} key={savedbook._id}>
