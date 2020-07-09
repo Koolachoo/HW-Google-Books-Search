@@ -14,7 +14,7 @@ This application is a full stack applicaiton for searching a google books API to
 
 ## Visual Example
 
-<img alt="Bookexample" src="public/booksearch.png" width="" height="" />
+<img alt="Bookexample" src="/public/booksearch.png"  />
 
 ## Technologies Used
 
