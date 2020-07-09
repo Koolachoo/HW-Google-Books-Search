@@ -3,6 +3,8 @@
 
 ## URL Link
 
-https://eat-da-burger-sandesh.herokuapp.com/
+ https://googlebookssearching.herokuapp.com/
 
-## User
+## Description
+
+This application is for searching a google books API to find book titles, display the titles, allow you to save them, and then view the saved books. 
