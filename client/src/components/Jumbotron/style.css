@@ -1,12 +1,13 @@
 .wumbo {
     background-color: brown;
     box-shadow:10px 10px 5px grey;
-    background-image: url("./cat.jpg");
+    background-image: url("./lib.jpeg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 300px; 
     width: 100%;
     padding-top: 10; 
-    text-align: center
+    text-align: center;
+    text-shadow: 2px 2px #756e6e;
 }
